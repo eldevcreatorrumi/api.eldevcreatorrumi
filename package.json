@@ -1,0 +1,18 @@
+{
+  "name": "minecraft-server-status",
+  "version": "1.0.0",
+  "description": "Minecraft server status API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "minecraft-server-util": "^5.4.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "keywords": ["minecraft", "api", "server-status"],
+  "author": "",
+  "license": "MIT"
+}
